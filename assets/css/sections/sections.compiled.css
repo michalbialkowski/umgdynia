@@ -34,3 +34,18 @@
     z-index: 20;
   }
 }
+
+#section__heading {
+  background: #C0A062;
+}
+#section__heading .bg--image--background {
+  opacity: 0.85;
+  filter: saturate(0%);
+}
+#section__heading .bg--image--content {
+  background: rgba(192, 160, 98, 0.85);
+}
+#section__heading .bg--image--content h1,
+#section__heading .bg--image--content p {
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+}
