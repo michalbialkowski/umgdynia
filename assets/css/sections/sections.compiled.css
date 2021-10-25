@@ -1,3 +1,39 @@
+#navbar__mobile form .input-group {
+  border-bottom-color: rgba(0, 0, 0, 0.35) !important;
+}
+#navbar__mobile form .input-group input[type=text]::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+#navbar__mobile form .input-group input[type=text]:-ms-input-placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+#navbar__mobile form .input-group input[type=text]::-ms-input-placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+
+#navbar__desktop form .input-group {
+  border-bottom-color: rgba(255, 255, 255, 0.65) !important;
+}
+#navbar__desktop form .input-group input[type=text]::placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+#navbar__desktop form .input-group input[type=text]:-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+#navbar__desktop form .input-group input[type=text]::-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+
+#section__hero {
+  position: realtive;
+  z-index: 5;
+}
 @media (max-width: 991.98px) {
   #section__hero .bg--image--content {
     padding-top: 50px;
@@ -37,6 +73,8 @@
 
 #section__heading {
   background: #C0A062;
+  position: relative;
+  z-index: 5;
 }
 #section__heading .bg--image--background {
   opacity: 0.85;
