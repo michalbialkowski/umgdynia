@@ -6,16 +6,192 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>UM Gdynia</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=d41d8cd98f00b204e9800998ecf8427e">
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-grid.compiled.css?h=58be1f43145d6fd6efc422735b76c252">
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-reboot.compiled.css?h=df5277305bbb74f0a22cc70138459bd9">
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-utilities.compiled.css?h=c3accb460924d4a04e246f5d97da07f2">
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.compiled.css?h=99a6a109db1f599e0fa7b5bcd81aa700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.compiled.css?h=acd3a48568e82445faac5ca747b4c138">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-grid.compiled.css?h=cda94c6609ea22ac0d4d2e1924551f9c">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-reboot.compiled.css?h=53544d1661055e4982a3a7bd95cb99fb">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-utilities.compiled.css?h=4d54e13b602430d0f99a7796d31173b0">
+    <link rel="stylesheet" href="assets/css/page.compiled.css?h=412aa4dd4831212db0b7bcf5323b36fd">
+    <link rel="stylesheet" href="assets/css/utilities/utilities.compiled.css?h=17a0ad803b7638f8d25b79cdd44b1983">
+    <link rel="stylesheet" href="assets/css/libs/libs.compiled.css?h=dda1d572cef268e6e6aba30c50241324">
+    <link rel="stylesheet" href="assets/css/overrides/overrides.compiled.css?h=b1677440d873f02e4fe9a4bdb2973ace">
 </head>
 
 <body>
-    <div id="section__page"></div>
+    <div id="section__page" class="viewport">
+        <header>
+            <div class="d-lg-none">
+                <nav class="navbar navbar-light navbar-expand shadow-sm py-2">
+                    <div class="container-fluid"><a class="navbar-brand d-flex align-items-center p-0" href="index.html"><img src="assets/img/logo/logo.svg?h=4297a9b67e1776f815079072caa30990" width="55" height="55"><span class="text-center ms-2 line-height-none"><small class="text-uppercase d-block fs--xsmall mb-1">Urząd Morski</small><span class="d-block fw-bold fs--large"> w Gdyni</span></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navcol-2">
+                            <div class="row justify-content-end align-items-center w-100 mx-n2">
+                                <div class="col-auto d-none d-sm-block px-2">
+                                    <form>
+                                        <div class="input-group input-group-lg border-bottom"><input class="form-control rounded-0 bg-transparent border-0 px-0 me-2 py-2" type="text" placeholder="Szukaj"><button class="btn rounded-0 px-0 py-0" type="button"><img src="assets/img/icons/icon-search.svg?h=7a27c953aaca6a39ee31f243306b1c00" style="width: 26px;height: 26px;filter: invert(100%);"></button></div>
+                                    </form>
+                                </div>
+                                <div class="col-auto d-sm-none px-2">
+                                    <div><button class="btn rounded-0 p-0" type="button" data-bs-target="#modal__search" data-bs-toggle="modal"><img src="assets/img/icons/icon-search.svg?h=7a27c953aaca6a39ee31f243306b1c00" style="filter: invert(100%);width: 26px;height: 26px;"></button></div>
+                                </div>
+                                <div class="col-auto px-2">
+                                    <div><button class="btn rounded-0 p-0" type="button" data-bs-target="#modal__menu" data-bs-toggle="modal"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-list" style="font-size: 36px;">
+                                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+                                            </svg></button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="d-none d-lg-block">
+                <div class="text-white bg-primary py-2">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center justify-content-md-between my-n1">
+                            <div class="col-auto py-1" style="margin-left: 180px;">
+                                <div><button class="btn text-white rounded-0 p-0" type="button"><img class="me-2" src="assets/img/icons/icon-phone.svg?h=e9ce8d49b9bc2f01a2e32747c4a9960d" style="width: 17.45px;height: 17.45px;"><span>+48 (58) 355 33 33</span></button></div>
+                            </div>
+                            <div class="col-auto py-1">
+                                <form>
+                                    <div class="input-group input-group-lg border-bottom"><input class="form-control rounded-0 bg-transparent border-0 px-0 me-2 py-2" type="text" placeholder="Szukaj"><button class="btn rounded-0 px-0 py-0" type="button"><img src="assets/img/icons/icon-search.svg?h=7a27c953aaca6a39ee31f243306b1c00" style="width: 26px;height: 26px;"></button></div>
+                                </form>
+                            </div>
+                            <div class="col-auto py-1">
+                                <div class="btn-group" role="group"><button class="btn btn-primary" type="button"><img src="assets/img/icons/icon-bip.svg?h=478e094b1f3f6d923900f531f6a1a6cc"></button><button class="btn btn-primary" type="button"><img src="assets/img/icons/icon-hands.svg?h=f3b39f67108dea6803707c4a307dbae4"></button><button class="btn btn-primary" type="button"><img src="assets/img/icons/icon-accessibility.svg?h=d28d56e38915067d9dbf5c53e8cb87f1"></button>
+                                    <div class="dropdown btn-group" role="group"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">PL</button>
+                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">PL</a><a class="dropdown-item" href="#">EN</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <nav class="navbar navbar-light navbar-expand">
+                        <div class="container"><a class="navbar-brand bg-white p-0 mt-n5 p-2 rounded-circle" href="index.html"><img src="assets/img/logo/logo.svg?h=4297a9b67e1776f815079072caa30990" width="145" height="145"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                            <div class="collapse navbar-collapse" id="navcol-1">
+                                <ul class="navbar-nav text-uppercase d-flex flex-wrap fw--600 w-100">
+                                    <li class="nav-item"><a class="nav-link px-3" href="#">Aktualności</a></li>
+                                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link px-3" aria-expanded="false" data-bs-toggle="dropdown" href="#">Informacje</a>
+                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                    </li>
+                                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link px-3" aria-expanded="false" data-bs-toggle="dropdown" href="#">Projekty</a>
+                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                    </li>
+                                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link px-3" aria-expanded="false" data-bs-toggle="dropdown" href="#">Bezpieczeństwo Morskie</a>
+                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link px-3" href="#">Kanał Żeglugowy</a></li>
+                                    <li class="nav-item"><a class="nav-link px-3" href="#">Covid-19 Informacje</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main></main>
+        <footer>
+            <div>
+                <div class="text-white bg-primary py-5">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center my-n3 mx-lg-n5">
+                            <div class="col-auto py-3 px-lg-5">
+                                <div class="row justify-content-center align-items-center my-n2">
+                                    <div class="col-auto py-2"><a class="d-block" href="#"><img class="d-block" src="assets/img/logo/logo.svg?h=4297a9b67e1776f815079072caa30990"></a></div>
+                                    <div class="col-auto py-2 small">
+                                        <h2 class="text-center text-sm-start fs-5 mb-3"><span class="d-block fw-bold">Urząd Morski w Gdyni</span><small class="d-block">Portal Informacyjny</small></h2>
+                                        <ul class="list-unstyled mb-2">
+                                            <li class="d-flex justify-content-center justify-content-sm-start"><span class="me-2">tel:</span><span>+48 (58) 355 33 33</span></li>
+                                            <li class="d-flex justify-content-center justify-content-sm-start"><span class="me-2">fax:</span><span>+48 (58) 620 67 43, +48 (58) 621 72 31</span></li>
+                                        </ul>
+                                        <p class="text-center text-sm-start mb-2">Chrzanowskiego 10<br>81-338 Gdynia<br></p>
+                                        <ul class="list-unstyled mb-2">
+                                            <li class="d-flex justify-content-center justify-content-sm-start"><span class="me-2">e-mail:</span><span>umgdy@umgdy.gov.pl</span></li>
+                                        </ul>
+                                        <ul class="list-unstyled mb-2">
+                                            <li class="d-flex justify-content-center justify-content-sm-start"><span class="me-2">NIP:</span><span>586-001-49-32</span></li>
+                                            <li class="d-flex justify-content-center justify-content-sm-start"><span class="me-2">REGON:</span><span>000145000</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto py-3 px-lg-5">
+                                <ul class="list-unstyled text-uppercase text-center text-lg-start d-flex justify-content-center flex-wrap flex-lg-column fw-bold mb-0 my-n2">
+                                    <li class="py-2 px-3"><a class="text-white text-decoration-none" href="#">Aktualności</a></li>
+                                    <li class="py-2 px-3"><a class="text-white text-decoration-none" href="#">Informacje</a></li>
+                                    <li class="py-2 px-3"><a class="text-white text-decoration-none" href="#">Projekty</a></li>
+                                    <li class="py-2 px-3"><a class="text-white text-decoration-none" href="#">Bezpieczeństwo Morskie</a></li>
+                                    <li class="py-2 px-3"><a class="text-white text-decoration-none" href="#">Kanał Żeglugowy</a></li>
+                                    <li class="py-2 px-3"><a class="text-white text-decoration-none" href="#">Covid-19 Informacje</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-auto">
+                                <div class="btn-group" role="group"><button class="btn btn-primary" type="button"><img src="assets/img/icons/icon-bip.svg?h=478e094b1f3f6d923900f531f6a1a6cc"></button><button class="btn btn-primary" type="button"><img src="assets/img/icons/icon-hands.svg?h=f3b39f67108dea6803707c4a307dbae4"></button><button class="btn btn-primary" type="button"><img src="assets/img/icons/icon-accessibility.svg?h=d28d56e38915067d9dbf5c53e8cb87f1"></button>
+                                    <div class="dropdown btn-group" role="group"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">PL</button>
+                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">PL</a><a class="dropdown-item" href="#">EN</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-3">
+                    <div class="container">
+                        <p class="text-center mb-0">Copyright © 2021 Portal Informacyjny Urzędu Morskiego w Gdyni</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal__menu">
+            <div class="modal-dialog modal-fullscreen" role="document">
+                <div class="modal-content">
+                    <div class="modal-body bg-primary d-flex">
+                        <div><button class="btn rounded-0 position-absolute top-0 end-0 p-3 line-height-none" type="button" style="filter: invert(100%);" data-bs-target="#modal__menu" data-bs-toggle="modal"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-lg">
+                                    <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"></path>
+                                </svg></button></div>
+                        <div class="d-flex flex-column justify-content-center w-100">
+                            <div>
+                                <ul class="list-unstyled text-center my-n2 fs-4 fw-bold">
+                                    <li class="py-2"><a class="text-decoration-none text-white" href="#">Aktualności</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-white" href="#">Informacje</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-white" href="#">Projekty</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-white" href="#">Bezpieczeństwo Morskie</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-white" href="#">Kanał Żeglugowy</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-white" href="#">Covid-19 Informacje</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal__search">
+            <div class="modal-dialog modal-fullscreen" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Title</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The content of your modal.</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js?h=06ed58a0080308e1635633c2fd9a56a3"></script>
+    <script src="assets/js/libs/flickity.pkgd.min.js?h=8625a9d2a4f797e756dbd299c2d74fc2"></script>
+    <script src="assets/js/libs/jquery.fancybox.js?h=b63c7cca1b5e4bd57bd854c444b895c9"></script>
+    <script src="assets/js/libs/masonry.pkgd.js?h=c39480835cf00844e6407f24d8aaba2e"></script>
+    <script src="assets/js/utilities/scroll.js?h=6b45ee3f322378dc3faf859cb456034a"></script>
+    <script src="assets/js/utilities/svg.js?h=d9ea285243bbaa184c8b082f54b30ff4"></script>
+    <script src="assets/js/libs/triggers/masonry.js?h=eba9bf4e2d9c7c9794b7bf1e788e5932"></script>
+    <script src="assets/js/libs/triggers/flickity.js?h=606e2569aec986da9cad24c5f396cefa"></script>
 </body>
 
 </html>
