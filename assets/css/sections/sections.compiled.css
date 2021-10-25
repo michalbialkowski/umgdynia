@@ -1,3 +1,6 @@
+#navbar__mobile .navbar-brand * {
+  white-space: normal;
+}
 #navbar__mobile form .input-group {
   border-bottom-color: rgba(0, 0, 0, 0.35) !important;
 }
@@ -28,6 +31,15 @@
 #navbar__desktop form .input-group input[type=text]::-ms-input-placeholder {
   color: #fff;
   opacity: 0.5;
+}
+#navbar__desktop .navbar-nav a {
+  font-weight: 600;
+}
+#navbar__desktop .navbar-nav .dropdown-menu {
+  text-transform: none;
+}
+#navbar__desktop .navbar-nav .dropdown-menu a {
+  font-weight: 500;
 }
 
 #section__hero {
