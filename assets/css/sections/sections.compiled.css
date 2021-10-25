@@ -1,0 +1,36 @@
+@media (max-width: 991.98px) {
+  #section__hero .bg--image--content {
+    padding-top: 50px;
+  }
+  #section__hero .bg--image--content > div {
+    padding: 250px 0 50px 0;
+    background: linear-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.85) 250px);
+  }
+}
+@media (min-width: 992px) {
+  #section__hero .content {
+    position: relative;
+    padding: 100px 0;
+  }
+  #section__hero .content:before, #section__hero .content:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    z-index: 10;
+  }
+  #section__hero .content:before {
+    width: 100vw;
+    right: 0;
+    background: rgba(255, 255, 255, 0.85);
+  }
+  #section__hero .content:after {
+    width: 300px;
+    left: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0));
+  }
+  #section__hero .content > div {
+    position: relative;
+    z-index: 20;
+  }
+}
