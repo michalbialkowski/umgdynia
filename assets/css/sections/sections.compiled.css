@@ -99,3 +99,18 @@
 #section__heading .bg--image--content p {
   text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 991.98px) {
+  .card.sidebar--menu .card-header {
+    padding-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .card.sidebar--menu {
+    border-top: none;
+    margin-top: -70px;
+  }
+  .card.sidebar--menu .card-header {
+    padding-top: 80px;
+  }
+}
