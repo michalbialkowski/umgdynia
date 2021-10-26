@@ -3,7 +3,7 @@ $(window).on('load', function() {
 		cellAlign: 'left',
 		contain: true,
 		freeScroll: false,
-		wrapAround: false,
+		wrapAround: true,
 		pageDots: true,
 		autoPlay: false,
 		prevNextButtons: false
@@ -11,14 +11,14 @@ $(window).on('load', function() {
 });
 
 $(window).on('load', function() {
-	$('.flickity--products').flickity({
+	$('.flickity--posts').flickity({
 		cellAlign: 'left',
 		contain: true,
 		freeScroll: false,
 		wrapAround: false,
-		pageDots: false,
-		autoPlay: true,
-		prevNextButtons: true,
+		pageDots: true,
+		autoPlay: false,
+		prevNextButtons: false,
         arrowShape: { 
 			x0: 15,
 			x1: 65, y1: 50,

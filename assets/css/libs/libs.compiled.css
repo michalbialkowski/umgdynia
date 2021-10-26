@@ -159,6 +159,10 @@ https://flickity.metafizzy.co
   fill: white;
 }
 
+.flickity--posts .flickity-page-dots {
+  bottom: -30px;
+}
+
 body.compensate-for-scrollbar {
   overflow: hidden;
 }
