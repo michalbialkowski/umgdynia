@@ -114,3 +114,16 @@
     padding-top: 80px;
   }
 }
+
+#section__certificates {
+  background: #C0A062;
+  position: relative;
+  z-index: 5;
+}
+#section__certificates .bg--image--background {
+  opacity: 0.85;
+  filter: saturate(0%);
+}
+#section__certificates .bg--image--content {
+  background: rgba(192, 160, 98, 0.85);
+}
