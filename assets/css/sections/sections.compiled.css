@@ -100,6 +100,23 @@
   text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 }
 
+body.highcontrast #section__heading {
+  background: #112E67;
+  position: relative;
+  z-index: 5;
+}
+body.highcontrast #section__heading .bg--image--background {
+  opacity: 0.85;
+  filter: saturate(0%);
+}
+body.highcontrast #section__heading .bg--image--content {
+  background: rgba(17, 46, 103, 0.85);
+}
+body.highcontrast #section__heading .bg--image--content h1,
+body.highcontrast #section__heading .bg--image--content p {
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 991.98px) {
   .card.sidebar--menu .card-header {
     padding-top: 40px;
@@ -126,4 +143,20 @@
 }
 #section__certificates .bg--image--content {
   background: rgba(192, 160, 98, 0.85);
+}
+
+#modal__search form .input-group {
+  border-bottom-color: rgba(255, 255, 255, 0.65) !important;
+}
+#modal__search form .input-group input[type=text]::placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+#modal__search form .input-group input[type=text]:-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+#modal__search form .input-group input[type=text]::-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.5;
 }
